@@ -14,9 +14,22 @@ class Header extends Component {
             <li>
               <Link to="/about">ABOUT US</Link>
             </li>
+
             <li>
               <Link to="/listings">LISTINGS</Link>
+              <ul class="dropdown">
+                <li>
+                  <Link to="/listings1">TINY HOUSE WITH VIEW</Link>
+                </li>
+                <li>
+                  <Link to="/listings2">OLD FAMILY HOUSE</Link>
+                </li>
+                <li>
+                  <Link to="/listings3">FAMILY HOUSE WITH GARDEN</Link>
+                </li>
+              </ul>
             </li>
+
             <li>
               <Link to="/contact">CONTACT</Link>
             </li>
