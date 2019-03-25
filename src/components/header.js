@@ -19,13 +19,13 @@ class Header extends Component {
               <Link to="/listings">LISTINGS</Link>
               <ul className="dropdown">
                 <li>
-                  <Link to="/listings1">TINY HOUSE WITH VIEW</Link>
+                  <Link to="/tinyhouse">TINY HOUSE WITH VIEW</Link>
                 </li>
                 <li>
-                  <Link to="/listings2">OLD FAMILY HOUSE</Link>
+                  <Link to="/oldhouse">OLD FAMILY HOUSE</Link>
                 </li>
                 <li>
-                  <Link to="/listings3">FAMILY HOUSE WITH GARDEN</Link>
+                  <Link to="/familyhouse">FAMILY HOUSE WITH GARDEN</Link>
                 </li>
               </ul>
             </li>

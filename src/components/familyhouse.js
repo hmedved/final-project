@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 
-class Listings extends Component {
+class Familyhouse extends Component {
   render() {
     return (
       <div className="content">
-        <h2> Listings</h2>
+        <h2> Family House With Olive and Rose gardens</h2>
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industry's standard dummy text ever
         since the 1500s, when an unknown printer took a galley of type and
@@ -19,4 +19,4 @@ class Listings extends Component {
   }
 }
 
-export default Listings;
+export default Familyhouse;

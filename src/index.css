@@ -97,6 +97,7 @@ ul li ul {
   left: 0;
   font-size: 1pt;
   display: inline-block;
+  z-index: 99;
 }
 
 ul li:hover > ul,
