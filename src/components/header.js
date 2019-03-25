@@ -17,7 +17,7 @@ class Header extends Component {
 
             <li>
               <Link to="/listings">LISTINGS</Link>
-              <ul class="dropdown">
+              <ul className="dropdown">
                 <li>
                   <Link to="/listings1">TINY HOUSE WITH VIEW</Link>
                 </li>
