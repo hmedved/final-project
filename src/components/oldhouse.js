@@ -10,7 +10,7 @@ class Oldhouse extends Component {
           <Oldhouseimages />
         </div>
         <div className="house-info">
-          <h2>Renovated Old Family House</h2>
+          <h1>Renovated Old Family House</h1>
           <small>Cres, Croatia</small>
           <br />
           <br />
@@ -33,6 +33,18 @@ class Oldhouse extends Component {
             <p>
               Superhosts are experienced, highly rated hosts who are committed
               to providing great stays for guests.
+            </p>
+          </div>
+          <div className="house-text-line-above" />
+          <div className="house-text">
+            <p>
+              This is my grandparten's old family house that was recently
+              renovated for other families to enjoy it too. It is situated on
+              top of the village, provides a special view, garden, patio and a
+              second terrace where you can enjoy the warm peaceful moments. The
+              nearest beach is 15-20 min walk, the nearest grocery store is 4
+              min walk. All kinds of families from all backgrounds are welcome
+              to stay.
             </p>
           </div>
         </div>

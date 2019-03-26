@@ -25,7 +25,7 @@ body {
 }
 
 header {
-  border: 1px solid lightblue;
+  /* border: 1px solid lightblue; */
   position: relative;
   display: block;
   margin: 20px 50px 20px 50px;
@@ -48,7 +48,7 @@ nav {
 }
 
 li {
-  transition-duration: 0.5s;
+  /* transition-duration: 0.5s; */
 }
 
 ul li ul {
@@ -76,7 +76,7 @@ li {
   padding: 1em;
   position: static;
   text-decoration: none;
-  transition-duration: 0.5s;
+  /* transition-duration: 0.5s; */
 }
 
 ul > li > a {
@@ -87,11 +87,18 @@ ul > li > a {
 
 ul.dropmenu > li > a {
   font-size: 8pt;
+  padding: 0;
+}
+
+ul.dropdown {
+  margin-left: 80px;
+  width: 250px;
 }
 
 li:hover {
-  background: aliceblue;
   cursor: pointer;
+  border-bottom: 2px solid #484848;
+  z-index: 100;
 }
 
 ul li ul {
@@ -100,7 +107,7 @@ ul li ul {
   opacity: 0;
   min-width: 5rem;
   position: absolute;
-  transition: all 0.5s ease;
+  /* transition: all 0.5s ease; */
   margin-top: 1rem;
   left: 0;
   font-size: 1pt;
@@ -124,10 +131,12 @@ a:hover {
 }
 
 .App {
-  border: 1px solid darkblue;
+  /* border: 1px solid darkblue; */
 }
 
-div.content {
+div.content > p {
+  margin: 20px 0 0 110px;
+  width: 40%;
 }
 
 b {
@@ -140,14 +149,24 @@ p {
   color: #484848;
 }
 
-div.content > h2 {
-  margin: 0 0 0 25px;
+div.content > h1 {
+  margin: 0 0 0 110px;
   color: #484848;
 }
 
-div.house-info > h2 {
+div.house-info > h1 {
   margin: 20px 0 0px 100px;
   color: #484848;
+}
+div.house-text > p {
+  margin: 30px 0 0px 100px;
+  color: #484848;
+}
+
+div.house-text-line-above {
+  margin: 40px 0px 0px 100px;
+  border-top: 1px solid #484848;
+  opacity: 0.1;
 }
 
 small {
@@ -163,8 +182,8 @@ div.descr-4 {
 }
 
 div.content > div.gallery-container {
-  display: inline-block;
-  height: 268px;
+  /* display: inline-block; */
+  height: 290px;
   overflow: hidden;
 }
 

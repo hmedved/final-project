@@ -4,7 +4,7 @@ class About extends Component {
   render() {
     return (
       <div className="content">
-        <h2> About us</h2>
+        <h1> About us</h1>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever

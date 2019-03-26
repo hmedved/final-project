@@ -11,7 +11,7 @@ class Tinyhouse extends Component {
           <Tinyhouseimages />
         </div>
         <div className="house-info">
-          <h2> Tiny House With a View</h2>
+          <h1> Tiny House With a View</h1>
           <small>Cres, Croatia</small>
           <br />
           <br />
@@ -34,6 +34,15 @@ class Tinyhouse extends Component {
           <div className="descr-4">
             <b>❤ Great location</b>
             <p>100% of recent guests gave the location a 5-star rating.</p>
+          </div>
+          <div className="house-text-line-above" />
+          <div className="house-text">
+            <p>
+              Small remote house with amazing view and plenty of outdoor space
+              around the house. 15-20 min walk to the nearest beach. The guests
+              can use the entry space before the fence. The fence is there to
+              protect the sheep from entering the neighbours garden.
+            </p>
           </div>
         </div>
       </div>

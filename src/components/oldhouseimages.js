@@ -7,8 +7,8 @@ const photos = [
   {
     src:
       "https://a0.muscache.com/im/pictures/00c35cc1-9d22-4fc8-a8ed-bf274412c85b.jpg?aki_policy=xx_large",
-    width: 9,
-    height: 6
+    width: 7,
+    height: 5
   },
   {
     src:
