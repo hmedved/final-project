@@ -20,8 +20,18 @@ class Apartmentdetails extends Component {
     return <div>Loading</div>;
   }
   renderApartment() {
-    return <div>{this.state.apartment.title}</div>;
+    return (
+      <div>
+        {this.renderPhotos(this.state.apartment.photos)}
+        {this.state.apartment.title}
+      </div>
+    );
   }
+  renderPhotos(photos) {
+    const content = photos.map(photo => photo && <img src={photo.src} />);
+    return content;
+  }
+
   render() {
     const isLoading = !this.state.apartment;
     let content;

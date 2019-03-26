@@ -21,6 +21,9 @@ class Listings extends Component {
   renderItem(apartment) {
     return (
       <div key={apartment.id}>
+        {apartment.photos.length && (
+          <img width="200px" height="200px" src={apartment.photos[0].src} />
+        )}
         {apartment.id}
         {apartment.title}
         <Link to={"/apartmentdetails/" + apartment.id}>
