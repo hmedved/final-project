@@ -98,7 +98,7 @@ const photos = [
   }
 ];
 
-class Images extends React.Component {
+class Tinyhouseimages extends React.Component {
   constructor() {
     super();
     this.state = { currentImage: 0 };
@@ -145,5 +145,5 @@ class Images extends React.Component {
     );
   }
 }
-export default Images;
-render(<Images />, document.getElementById("root"));
+export default Tinyhouseimages;
+render(<Tinyhouseimages />, document.getElementById("root"));

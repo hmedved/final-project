@@ -1,11 +1,16 @@
 import React, { Component } from "react";
 
+import Oldhouseimages from "./oldhouseimages";
+
 class Oldhouse extends Component {
   render() {
     return (
       <div className="content">
+        <div className="gallery-container">
+          <Oldhouseimages />
+        </div>
         <div className="house-info">
-          <h2> Tiny House With a View</h2>
+          <h2>Renovated Old Family House</h2>
           <small>Cres, Croatia</small>
           <br />
           <br />

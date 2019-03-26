@@ -12,26 +12,26 @@ class Header extends Component {
         <nav>
           <ul>
             <li>
-              <Link to="/about">ABOUT US</Link>
+              <Link to="/about">About us</Link>
             </li>
 
             <li>
-              <Link to="/listings">LISTINGS</Link>
+              <Link to="/listings">Listings</Link>
               <ul className="dropdown">
                 <li>
-                  <Link to="/tinyhouse">TINY HOUSE WITH VIEW</Link>
+                  <Link to="/tinyhouse">Tiny House With a View</Link>
                 </li>
                 <li>
-                  <Link to="/oldhouse">OLD FAMILY HOUSE</Link>
+                  <Link to="/oldhouse">Old Family House</Link>
                 </li>
                 <li>
-                  <Link to="/familyhouse">FAMILY HOUSE WITH GARDEN</Link>
+                  <Link to="/familyhouse">Family House With Garden</Link>
                 </li>
               </ul>
             </li>
 
             <li>
-              <Link to="/contact">CONTACT</Link>
+              <Link to="/contact">Contact</Link>
             </li>
           </ul>
         </nav>

@@ -28,7 +28,7 @@ header {
   border: 1px solid lightblue;
   position: relative;
   display: block;
-  margin: 10px;
+  margin: 20px 50px 20px 50px;
   height: 50px;
 }
 
@@ -36,6 +36,7 @@ header > a > img.logo {
   position: absolute;
   top: 5%;
   width: 40px;
+  height: 40px;
 }
 
 nav {
@@ -69,7 +70,7 @@ ul {
 }
 
 li {
-  color: deepskyblue;
+  color: #484848;
   /* background: darkorange; */
   float: left;
   padding: 1em;
@@ -79,8 +80,9 @@ li {
 }
 
 ul > li > a {
-  color: deepskyblue;
+  color: #484848;
   font-size: 12pt;
+  font-weight: 600;
 }
 
 ul.dropmenu > li > a {
@@ -115,10 +117,10 @@ ul li ul:hover {
 
 a {
   text-decoration: none;
-  color: lightblue;
+  color: #484848;
 }
 a:hover {
-  color: skyblue;
+  color: black;
 }
 
 .App {
@@ -130,21 +132,26 @@ div.content {
 
 b {
   margin-bottom: 10px;
-  color: darkslategrey;
+  color: #484848;
 }
 
 p {
   margin: 0 0 0 25px;
-  color: darkslategrey;
+  color: #484848;
 }
 
-h2 {
-  margin: 0 0 0 0px;
-  color: darkslategrey;
+div.content > h2 {
+  margin: 0 0 0 25px;
+  color: #484848;
+}
+
+div.house-info > h2 {
+  margin: 20px 0 0px 100px;
+  color: #484848;
 }
 
 small {
-  margin-bottom: 10px;
+  margin: 0px 10px 0 100px;
   font-weight: 300;
 }
 
@@ -152,7 +159,7 @@ div.descr-1,
 div.descr-2,
 div.descr-3,
 div.descr-4 {
-  margin: 0 0 20px 0;
+  margin: 0 0 20px 100px;
 }
 
 div.content > div.gallery-container {
@@ -163,7 +170,8 @@ div.content > div.gallery-container {
 
 div.gallery-container > div > div.react-photo-gallery--gallery > div > img {
   object-fit: cover;
-  margin: 0px;
+  margin: 0;
+  padding: 0;
   overflow: hidden;
   -moz-transition: 0.3s;
   -webkit-transition: 0.4s;
@@ -173,7 +181,7 @@ div.gallery-container > div > div.react-photo-gallery--gallery > div > img {
 }
 
 img {
-  margin: 0;
+  margin: 0px;
 }
 
 div.gallery-container

@@ -1,14 +1,14 @@
 import React, { Component } from "react";
 
 // components
-import Images from "./images";
+import Tinyhouseimages from "./tinyhouseimages";
 
 class Tinyhouse extends Component {
   render() {
     return (
       <div className="content">
         <div className="gallery-container">
-          <Images />
+          <Tinyhouseimages />
         </div>
         <div className="house-info">
           <h2> Tiny House With a View</h2>
