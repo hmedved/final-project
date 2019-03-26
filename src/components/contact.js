@@ -5,7 +5,7 @@ class Contact extends Component {
   render() {
     return (
       <div className="content">
-        <h2>The neighborhood</h2>
+        <h1>The neighborhood</h1>
         <p>
           Metka’s home is located in Cres, Primorje-Gorski Kotar County,
           Croatia.
