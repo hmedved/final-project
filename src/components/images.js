@@ -7,14 +7,14 @@ const photos = [
   {
     src:
       "https://a0.muscache.com/im/pictures/238aad54-2755-4839-8baf-8b46959ffd0c.jpg?aki_policy=x_large",
-    width: 400,
-    height: 300
+    width: 7,
+    height: 5
   },
   {
     src:
       "https://a0.muscache.com/im/pictures/b6e4364c-ac5c-4117-93cd-a42c990c834a.jpg?aki_policy=x_large",
-    width: 1,
-    height: 1
+    width: 4,
+    height: 3
   },
   {
     src:
@@ -26,7 +26,7 @@ const photos = [
     src:
       "https://a0.muscache.com/im/pictures/f76e3886-8aef-4831-a83a-0d52166ee714.jpg?aki_policy=x_large",
     width: 3,
-    height: 4
+    height: 5
   },
   {
     src:
