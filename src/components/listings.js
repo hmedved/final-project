@@ -1,23 +1,51 @@
 import React, { Component } from "react";
+import * as endpoints from "../client/endpoints";
+import { Link } from "react-router-dom";
 
 class Listings extends Component {
-  render() {
+  constructor(props) {
+    super(props);
+    this.state = {
+      apartmentList: []
+    };
+  }
+
+  async componentDidMount() {
+    console.log("1");
+    const apartmentList = await endpoints.getApartmentList();
+    console.log("2", apartmentList);
+
+    this.setState({ apartmentList });
+  }
+
+  renderItem(apartment) {
     return (
-      <div className="content">
-        <h1> Listings</h1>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum. I am About us page.
-        </p>
+      <div key={apartment.id}>
+        {apartment.id}
+        {apartment.title}
+        <Link to={"/apartmentdetails/" + apartment.id}>
+          <button>Apartment details</button>
+        </Link>
       </div>
     );
+  }
+  renderList() {
+    const apartments = this.state.apartmentList.map(this.renderItem);
+    return <div>{apartments}</div>;
+  }
+  renderloading() {
+    return <div>Loading</div>;
+  }
+
+  render() {
+    const isLoading = this.state.apartmentList.length === 0;
+    let content;
+    if (isLoading) {
+      content = this.renderloading();
+    } else {
+      content = this.renderList();
+    }
+    return <div className="content">{content}</div>;
   }
 }
 

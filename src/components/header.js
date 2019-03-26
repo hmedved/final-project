@@ -6,7 +6,7 @@ class Header extends Component {
     return (
       <header>
         <Link to="/">
-          <img src="./logo1.png" className="logo" alt="logo" />
+          <img src="/logo1.png" className="logo" alt="logo" />
         </Link>
 
         <nav>
