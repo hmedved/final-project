@@ -11,6 +11,7 @@ const tableApartments = [
     cleanData: "100% guests said this place was sparkling clean.",
     extra: "Indoor fireplace",
     extraText: "This is one of a few places in the area that has this feature.",
+    position: { lat: 44.7919669, lng: 14.3804406 },
 
     photos: [
       {
@@ -120,6 +121,7 @@ const tableApartments = [
     extra: "Great check-in experience",
     extraText:
       "100% of recent guests gave the check-in process a 5-star rating.",
+    position: { lat: 44.791599, lng: 14.380279 },
 
     photos: [
       {
@@ -130,7 +132,7 @@ const tableApartments = [
       },
       {
         src:
-          "https://a0.muscache.com/im/pictures/00b23ae6-3f53-4164-8d61-0bbc09f07fb6.jpg?aki_policy=x_large",
+          "https://a0.muscache.com/im/pictures/b8efacc1-e545-4f12-9892-f193a15b2c7f.jpg?aki_policy=x_large",
         width: 4,
         height: 3
       },
@@ -142,13 +144,13 @@ const tableApartments = [
       },
       {
         src:
-          "https://a0.muscache.com/im/pictures/7f70fa78-a9cf-418d-ad77-e5229bd57628.jpg?aki_policy=x_large",
+          "https://a0.muscache.com/im/pictures/00b23ae6-3f53-4164-8d61-0bbc09f07fb6.jpg?aki_policy=x_large",
         width: 9,
         height: 6
       },
       {
         src:
-          "https://a0.muscache.com/im/pictures/b8efacc1-e545-4f12-9892-f193a15b2c7f.jpg?aki_policy=x_large",
+          "https://a0.muscache.com/im/pictures/7f70fa78-a9cf-418d-ad77-e5229bd57628.jpg?aki_policy=x_large",
         width: 3,
         height: 4
       },
@@ -261,7 +263,7 @@ const tableApartments = [
     extra: "Animals",
     extraText:
       "You will be surrounded with wild goats. Please do not scare them.",
-
+    position: { lat: 44.790756, lng: 14.381662 },
     photos: [
       {
         src:

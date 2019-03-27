@@ -89,7 +89,9 @@ class Apartmentdetails extends Component {
     );
   }
   renderPhotos(photos) {
-    const content = photos.map(photo => photo && <img src={photo.src} />);
+    const content = photos.map(
+      photo => photo && <img src={photo.src} alt="some text instead" />
+    );
     return content;
   }
 
