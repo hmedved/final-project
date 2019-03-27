@@ -5,6 +5,11 @@ const tableApartments = [
     description:
       "Small remote house with amazing view and plenty of outdoor space. 15-20 min walk to the nearest beach.The guests can use the entry space before the fence. The fence is there to protect the sheep from entering the neighbours garden.",
     location: "Cres, Croatia",
+    size: "Tiny house",
+    rooms: "3 guests · 1 bedroom · 2 beds · 1 bath",
+    clean: "Sparkling clean",
+    cleanData: "100% guests said this place was sparkling clean.",
+
     photos: [
       {
         src:
@@ -21,8 +26,8 @@ const tableApartments = [
       {
         src:
           "https://a0.muscache.com/im/pictures/f7f0abbf-8bdb-4023-8b4c-29667a86fc8e.jpg?aki_policy=x_large",
-        width: 3,
-        height: 5
+        width: 5,
+        height: 6
       },
       {
         src:
@@ -106,6 +111,10 @@ const tableApartments = [
     description:
       "This is my grandparten's old family house that was recently renovated for other families to enjoy it too. It is situated on top of the village, provides a special view, garden, patio and a second terrace where you can enjoy the warm peaceful moments. The nearest beach is 15-20 min walk, the nearest grocery store is 4 min walk. All kinds of families from all backgrounds are welcome to stay.",
     location: "Cres, Croatia",
+    size: "Entire family house",
+    rooms: "5 guests · 2 bedrooms · 3 beds · 2 baths",
+    clean: "Sparkling clean",
+    cleanData: "100% guests said this place was sparkling clean.",
 
     photos: [
       {
@@ -240,6 +249,10 @@ const tableApartments = [
     description:
       "Welcome to our house of jazz and roses. A modern, newly build family house with two apartments, one of which is offered to guests. The nearest beach is 15-20 min by walk. Grocery store is around the corner. All kinds of families from all backgrounds are welcome to stay.",
     location: "Stivan, Croatia",
+    size: "Entire family house wit garden",
+    rooms: "5 guests · 3 bedrooms · 5 beds · 1 bath",
+    clean: "Sparkling clean",
+    cleanData: "100% guests said this place was sparkling clean.",
 
     photos: [
       {

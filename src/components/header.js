@@ -22,10 +22,10 @@ class Header extends Component {
                   <Link to="/tinyhouse">Tiny House With a View</Link>
                 </li>
                 <li>
-                  <Link to="/oldhouse">Old Family House</Link>
+                  <Link to="/oldhouse">Renovated Old Family House</Link>
                 </li>
                 <li>
-                  <Link to="/familyhouse">Family House With Garden</Link>
+                  <Link to="/familyhouse">Family House</Link>
                 </li>
               </ul>
             </li>

@@ -142,10 +142,6 @@ div.content {
   margin: 0px 0 0 0px;
 }
 
-div.content > p {
-  margin: 20px 0 0 0px;
-  width: 40%;
-}
 div.content > h1 {
   margin: 0 0 0 0px;
   color: #484848;
@@ -192,14 +188,15 @@ div.content {
   display: inline-block;
 }
 
-div.gallery-container {
+div.gallery-container,
+div.apartment-listing > div.gallery-container {
   /* display: inline-block; */
   height: 290px;
   overflow: hidden;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
-div.gallery-container > div > div.react-photo-gallery--gallery > div > img {
+div.gallery-container > div.react-photo-gallery--gallery > div > img {
   object-fit: cover;
   margin: 0;
   padding: 0;
@@ -215,28 +212,34 @@ img {
   margin: 0px;
 }
 
-div.gallery-container
-  > div
-  > div.react-photo-gallery--gallery
-  > div
-  > img:hover {
+div.gallery-container > div.react-photo-gallery--gallery > div > img:hover {
   -webkit-transform: scale(1.3);
   /* transform: scale(1.3); */
   -webkit-filter: grayscale(90%);
   transition: 0.3;
 }
 
-div.content > div.gallery-container {
+div.listing > div.listings-photo > img:hover {
+  /* -webkit-transform: scale(1.3); */
+  /* transform: scale(1.3); */
+  -webkit-filter: grayscale(90%);
+  transition: 0.3;
+  overflow: hidden;
+}
+
+div.content > div.gallery-container,
+div.listings-photo {
   width: 100%;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
 }
 
-div.house-info {
-  margin: 0 0 0 380px;
+div.house-info,
+div.content {
+  margin: 0 0 0 350px;
   padding: 10px;
-  width: 40%;
+  width: 50%;
 }
 
 .listing {
@@ -271,4 +274,9 @@ button:hover {
   cursor: pointer;
   border: 0;
   border-bottom: 2px solid #484848;
+  color: black;
+}
+
+div.listings-all-houses > div {
+  justify-content: center;
 }
