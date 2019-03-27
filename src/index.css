@@ -143,11 +143,11 @@ div.content {
 }
 
 div.content > p {
-  margin: 20px 0 0 110px;
+  margin: 20px 0 0 0px;
   width: 40%;
 }
 div.content > h1 {
-  margin: 0 0 0 110px;
+  margin: 0 0 0 0px;
   color: #484848;
 }
 
@@ -157,12 +157,12 @@ b {
 }
 
 p {
-  margin: 0 0 0 25px;
+  margin: 0 0 0 0px;
   color: #484848;
 }
 
 div.house-info > h1 {
-  margin: 20px 0 0px 0px;
+  margin: 0px 0 0px 0px;
   color: #484848;
 }
 div.house-text > p {
@@ -188,7 +188,11 @@ div.descr-4 {
   margin: 0 0 20px 0px;
 }
 
-div.content > div.gallery-container {
+div.content {
+  display: inline-block;
+}
+
+div.gallery-container {
   /* display: inline-block; */
   height: 290px;
   overflow: hidden;
@@ -233,4 +237,38 @@ div.house-info {
   margin: 0 0 0 380px;
   padding: 10px;
   width: 40%;
+}
+
+.listing {
+  margin: 0;
+}
+
+div.listings-all-houses > div {
+  display: flex;
+}
+
+div.listing {
+  margin: 10px;
+}
+
+div.listings-photo > img {
+  width: 350px;
+}
+
+.react-photo-gallery--gallery {
+  margin: 0;
+}
+
+button {
+  border: 0;
+  color: #484848;
+  font-size: 12pt;
+  font-weight: 600;
+  padding: 1em 1em 1em 0em;
+}
+
+button:hover {
+  cursor: pointer;
+  border: 0;
+  border-bottom: 2px solid #484848;
 }

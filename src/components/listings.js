@@ -20,15 +20,19 @@ class Listings extends Component {
 
   renderItem(apartment) {
     return (
-      <div key={apartment.id}>
-        {apartment.photos.length && (
-          <img width="200px" height="200px" src={apartment.photos[0].src} />
-        )}
-        {apartment.id}
-        {apartment.title}
-        <Link to={"/apartmentdetails/" + apartment.id}>
-          <button>Apartment details</button>
-        </Link>
+      <div className="listing">
+        <div className="listings-photo" key={apartment.id}>
+          {apartment.photos.length && (
+            <img src={apartment.photos[0].src} alt={apartment.title} />
+          )}
+        </div>
+        <div className="gumb">
+          <Link to={"/apartmentdetails/" + apartment.id}>
+            <button>{apartment.title}</button>
+            <br />
+            <br />
+          </Link>
+        </div>
       </div>
     );
   }
@@ -48,7 +52,7 @@ class Listings extends Component {
     } else {
       content = this.renderList();
     }
-    return <div className="content">{content}</div>;
+    return <div className="listings-all-houses">{content}</div>;
   }
 }
 

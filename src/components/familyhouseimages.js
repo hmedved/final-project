@@ -95,21 +95,6 @@ const photos = [
     width: 9,
     height: 7
   }
-  // {
-  //   src: "",
-  //   width: 4,
-  //   height: 3
-  // },
-  // {
-  //   src: "",
-  //   width: 4,
-  //   height: 3
-  // },
-  // {
-  //   src: "",
-  //   width: 4,
-  //   height: 3
-  // }
 ];
 
 class Familyhouseimages extends React.Component {
