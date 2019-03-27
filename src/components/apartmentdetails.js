@@ -75,6 +75,9 @@ class Apartmentdetails extends Component {
           <b>{this.state.apartment.size}</b>
           <p>{this.state.apartment.rooms}</p>
           <br />
+          <b>{this.state.apartment.extra}</b>
+          <p>{this.state.apartment.extraText}</p>
+          <br />
           <b>{this.state.apartment.clean}</b>
           <p>{this.state.apartment.cleanData}</p>
           <div className="house-text-line-above" />

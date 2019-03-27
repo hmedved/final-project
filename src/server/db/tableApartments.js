@@ -9,6 +9,8 @@ const tableApartments = [
     rooms: "3 guests · 1 bedroom · 2 beds · 1 bath",
     clean: "Sparkling clean",
     cleanData: "100% guests said this place was sparkling clean.",
+    extra: "Indoor fireplace",
+    extraText: "This is one of a few places in the area that has this feature.",
 
     photos: [
       {
@@ -115,6 +117,9 @@ const tableApartments = [
     rooms: "5 guests · 2 bedrooms · 3 beds · 2 baths",
     clean: "Sparkling clean",
     cleanData: "100% guests said this place was sparkling clean.",
+    extra: "Great check-in experience",
+    extraText:
+      "100% of recent guests gave the check-in process a 5-star rating.",
 
     photos: [
       {
@@ -253,6 +258,9 @@ const tableApartments = [
     rooms: "5 guests · 3 bedrooms · 5 beds · 1 bath",
     clean: "Sparkling clean",
     cleanData: "100% guests said this place was sparkling clean.",
+    extra: "Animals",
+    extraText:
+      "You will be surrounded with wild goats. Please do not scare them.",
 
     photos: [
       {

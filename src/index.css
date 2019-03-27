@@ -219,7 +219,7 @@ div.gallery-container > div.react-photo-gallery--gallery > div > img:hover {
   transition: 0.3;
 }
 
-div.listing > div.listings-photo > img:hover {
+div.listing > div.listings-photo > a > img:hover {
   /* -webkit-transform: scale(1.3); */
   /* transform: scale(1.3); */
   -webkit-filter: grayscale(90%);
@@ -254,7 +254,7 @@ div.listing {
   margin: 10px;
 }
 
-div.listings-photo > img {
+div.listings-photo > a > img {
   width: 350px;
 }
 

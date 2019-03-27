@@ -22,9 +22,11 @@ class Listings extends Component {
     return (
       <div className="listing">
         <div className="listings-photo" key={apartment.id}>
-          {apartment.photos.length && (
-            <img src={apartment.photos[0].src} alt={apartment.title} />
-          )}
+          <Link to={"/apartmentdetails/" + apartment.id}>
+            {apartment.photos.length && (
+              <img src={apartment.photos[0].src} alt={apartment.title} />
+            )}
+          </Link>
         </div>
         <div className="gumb">
           <Link to={"/apartmentdetails/" + apartment.id}>
@@ -41,7 +43,14 @@ class Listings extends Component {
     return <div>{apartments}</div>;
   }
   renderloading() {
-    return <div>Loading</div>;
+    return (
+      <div>
+        <img
+          src="https://uimovement.com/media/resource_image/image_4248.gif"
+          alt="Loading"
+        />
+      </div>
+    );
   }
 
   render() {
