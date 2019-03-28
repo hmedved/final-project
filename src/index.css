@@ -21,6 +21,7 @@ body {
 
 * {
   font-family: "Raleway", sans-serif;
+  box-sizing: border-box;
 }
 
 header {
@@ -243,9 +244,9 @@ div.listings-photo {
 
 div.house-info,
 div.content {
-  margin: 0 0 0 350px;
-  padding: 10px;
-  width: 50%;
+  /*margin: 0 0 0 350px;*/
+  padding: 10px 50px;
+  /*width: 50%;*/
 }
 
 .listing {
@@ -312,7 +313,7 @@ header > a > img.logo {
 
 input {
   width: 136px;
-  margin-bottom: 10px;
+  /*margin-bottom: 10px;*/
   border: none;
   outline: none;
   background: transparent;

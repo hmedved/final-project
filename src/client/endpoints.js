@@ -1,7 +1,7 @@
 import * as db from "../server/db";
 
 export async function getApartmentList() {
-  await delay(1000);
+  // await delay(1000);
   return Promise.resolve(db.getApartmentList());
 }
 
