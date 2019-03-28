@@ -17,25 +17,25 @@ class Contact extends Component {
           method="POST"
         >
           <div className="form-group">
-            <label for="name">Name</label>
-            <input type="text" className="form-control" id="name" />
+            <input type="text" id="name" placeholder="Your name" />
           </div>
           <div className="form-group">
-            <label for="exampleInputEmail1">Email address</label>
             <input
               type="email"
-              className="form-control"
               id="email"
               aria-describedby="emailHelp"
+              placeholder="Your email"
             />
           </div>
           <div className="form-group">
-            <label for="message">Message</label>
-            <textarea className="form-control" rows="5" id="message" />
+            <textarea
+              type="message"
+              id="message"
+              rows="10"
+              placeholder="Please type your request here"
+            />
           </div>
-          <button type="submit" className="btn btn-primary">
-            Submit
-          </button>
+          <button type="submit">Submit</button>
         </form>
       </div>
     );

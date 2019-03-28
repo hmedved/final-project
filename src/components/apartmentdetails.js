@@ -72,6 +72,7 @@ class Apartmentdetails extends Component {
           <small>{this.state.apartment.location}</small>
           <br />
           <br />
+          <img src={this.state.apartment.house} alt="icon" />
           <b>{this.state.apartment.size}</b>
           <p>{this.state.apartment.rooms}</p>
           <br />
