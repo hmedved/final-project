@@ -56,7 +56,17 @@ class Apartmentdetails extends Component {
 
   handleBook = () => {
     console.log('handleBook');
-    alert(`Book from ${this.state.startDate} to ${this.state.endDate}`)
+    // alert(`Book from ${this.state.startDate} to ${this.state.endDate}`);
+
+    const emailTo = 'booking@metka.com';
+    const subject = `Booking for ${this.state.apartment.title}`;
+    const name = 'Hrvoje Medved'; // get from input box
+    const startDate = this.state.startDate.format("MMM Do YYYY");
+    const endDate = this.state.endDate.format("MMM Do YYYY");
+    const body = `Hi, I would like to book your apartment from ${startDate} to ${endDate}. Best Regards, ${name}`;
+    const emailUrl = `mailto:${emailTo}?subject=${subject}&body=${body}`;
+
+    window.open(emailUrl);
   };
 
   // lifecycle
@@ -121,7 +131,12 @@ class Apartmentdetails extends Component {
 
         <button
           disabled={bookDisabled}
-          style={{ marginTop: 50, backgroundColor: '#eee', padding: '20px 100px', opacity: bookDisabled ? 0.5 : 1 }}
+          style={{
+            marginTop: 50,
+            backgroundColor: '#eee',
+            padding: '20px 100px',
+            opacity: bookDisabled ? 0.5 : 1
+          }}
           onClick={this.handleBook}>
           Book
         </button>
