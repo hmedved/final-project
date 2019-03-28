@@ -296,7 +296,7 @@ header > a > img.logo {
 }
 
 #contact-form {
-  border: 1px solid #484848;
+  border: 2px solid #484848;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -318,7 +318,7 @@ input {
   outline: none;
   background: transparent;
   font-size: 14px;
-  border-bottom: 1px solid #484848;
+  border-bottom: 2px solid #484848;
   /* margin-left: auto;
     margin-right: auto; */
   box-sizing: border-box;
@@ -326,7 +326,7 @@ input {
 }
 
 textarea {
-  border: 1px solid #484848;
+  border: 2px solid #484848;
   margin-top: 20px;
   width: 250px;
 }
@@ -391,16 +391,16 @@ h2 {
 }
 
 div.booking-container > button {
-  border: 2px solid deepskyblue;
+  border: 2px solid #008489;
   padding: 10px 50px 10px 50px;
   width: 286px;
   margin: 20px 0 0 0;
-  color: deepskyblue;
+  color: #008489;
 }
 
 div.booking-container > button:hover {
-  border: 2px solid deepskyblue;
-  background-color: deepskyblue;
+  border: 2px solid #008489;
+  background-color: #008489;
   padding: 10px 50px 10px 50px;
   width: 286px;
   margin: 20px 0 0 0;
