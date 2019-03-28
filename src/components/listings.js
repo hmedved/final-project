@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import * as endpoints from "../client/endpoints";
 import { Link } from "react-router-dom";
-
+import Googlemap from "./googlemap";
 class Listings extends Component {
   constructor(props) {
     super(props);
@@ -61,7 +61,14 @@ class Listings extends Component {
     } else {
       content = this.renderList();
     }
-    return <div className="listings-all-houses">{content}</div>;
+    return (
+      <div>
+        <div className="listings-all-houses">{content}</div>
+        <div className="map-container">
+          <Googlemap />
+        </div>
+      </div>
+    );
   }
 }
 

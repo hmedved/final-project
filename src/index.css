@@ -7,7 +7,6 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -141,10 +140,18 @@ a:hover {
 div.content {
   margin: 0px 0 0 0px;
 }
+div.content > p {
+  margin: 20px 0 0 0px;
+}
 
 div.content > h1 {
   margin: 0 0 0 0px;
   color: #484848;
+}
+
+div.content > img {
+  max-width: 720px;
+  margin: 20px 0 0 0;
 }
 
 b {
@@ -162,7 +169,7 @@ div.house-info > h1 {
   color: #484848;
 }
 div.house-text > p {
-  margin: 30px 0 0px 0px;
+  margin: 20px 0 100px 0px;
   color: #484848;
 }
 
@@ -279,4 +286,19 @@ button:hover {
 
 div.listings-all-houses > div {
   justify-content: center;
+}
+
+header > a > img.logo {
+  animation: App-logo-spin infinite 7s linear;
+  /* height: 40vmin; */
+  /* pointer-events: none; */
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link, BrowserRouter, Route } from "react-router-dom";
+import { BrowserRouter, Route } from "react-router-dom";
 import * as endpoints from "./client/endpoints";
 // components
 import Header from "./components/header";
