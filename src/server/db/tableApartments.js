@@ -7,17 +7,16 @@ const tableApartments = [
     location: "Cres, Croatia",
     size: "Tiny house",
     rooms: "3 guests · 1 bedroom · 2 beds · 1 bath",
-    clean: "Sparkling clean",
-    cleanData: "100% guests said this place was sparkling clean.",
+    price: "30",
+    perNight: "perNight",
     extra: "Indoor fireplace",
     extraText: "This is one of a few places in the area that has this feature.",
+    clean: "Sparkling clean",
+    cleanData: "100% guests said this place was sparkling clean.",
     position: { lat: 44.7919669, lng: 14.3804406 },
-    key: [{ src: "https://image.flaticon.com/icons/png/512/122/122103.png" }],
-    fire: [{ src: "https://image.flaticon.com/icons/png/512/54/54569.png" }],
-    sparkling: [
-      { src: "https://image.flaticon.com/icons/png/512/91/91451.png" }
-    ],
     house: "https://image.flaticon.com/icons/png/512/102/102061.png",
+    cleanIcon: "https://image.flaticon.com/icons/png/512/91/91451.png",
+    extraIcon: "https://image.flaticon.com/icons/png/512/54/54569.png",
 
     photos: [
       {
@@ -128,12 +127,9 @@ const tableApartments = [
     extraText:
       "100% of recent guests gave the check-in process a 5-star rating.",
     position: { lat: 44.791599, lng: 14.380279 },
-    key: [{ src: "https://image.flaticon.com/icons/png/512/122/122103.png" }],
-    fire: [{ src: "https://image.flaticon.com/icons/png/512/54/54569.png" }],
-    sparkling: [
-      { src: "https://image.flaticon.com/icons/png/512/91/91451.png" }
-    ],
-    house: [{ src: "https://image.flaticon.com/icons/png/512/102/102061.png" }],
+    house: "https://image.flaticon.com/icons/png/512/102/102061.png",
+    extraIcon: "https://image.flaticon.com/icons/png/512/122/122103.png",
+    cleanIcon: "https://image.flaticon.com/icons/png/512/91/91451.png",
 
     photos: [
       {
@@ -276,12 +272,9 @@ const tableApartments = [
     extraText:
       "You will be surrounded with wild goats. Please do not scare them.",
     position: { lat: 44.790756, lng: 14.381662 },
-    key: [{ src: "https://image.flaticon.com/icons/png/512/122/122103.png" }],
-    fire: [{ src: "https://image.flaticon.com/icons/png/512/54/54569.png" }],
-    sparkling: [
-      { src: "https://image.flaticon.com/icons/png/512/91/91451.png" }
-    ],
-    house: [{ src: "https://image.flaticon.com/icons/png/512/102/102061.png" }],
+    house: "https://image.flaticon.com/icons/png/512/102/102061.png",
+    extraIcon: "https://image.flaticon.com/icons/svg/66/66722.svg",
+    cleanIcon: "https://image.flaticon.com/icons/png/512/91/91451.png",
     photos: [
       {
         src:

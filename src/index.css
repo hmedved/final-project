@@ -244,9 +244,9 @@ div.listings-photo {
 
 div.house-info,
 div.content {
-  /*margin: 0 0 0 350px;*/
+  margin: 0 0 0 250px;
   padding: 10px 50px;
-  /*width: 50%;*/
+  width: 49%;
 }
 
 .listing {
@@ -274,7 +274,7 @@ button {
   color: #484848;
   font-size: 12pt;
   font-weight: 600;
-  padding: 1em 0em 1em 0em;
+  /* padding: 1em 0em 1em 0em; */
 }
 
 button:hover {
@@ -346,4 +346,64 @@ div.react-photo-gallery--gallery {
 
 div.content > div#map {
   justify-content: center;
+}
+
+div.house-info > img {
+  width: 13px;
+  margin: 0 7px 0 0px;
+}
+
+div.apartment-listing > div > div.booking-container {
+  padding: 10px;
+  width: 400px;
+  margin-right: 0px;
+}
+
+div.booking-container {
+  height: 220px;
+  width: 306px;
+}
+
+div.DateRangePicker_picker
+  DateRangePicker_picker_1
+  DateRangePicker_picker__directionLeft
+  DateRangePicker_picker__directionLeft_2 {
+  margin-right: 20px;
+}
+
+div.DateRangePicker DateRangePicker_1 {
+  border: 0;
+}
+
+div.booking-container > img {
+  height: 19px;
+  margin: 10px 0 15px 0;
+}
+
+div.price {
+  display: flex;
+  align-items: baseline;
+}
+
+div.price h1,
+h2 {
+  margin-bottom: 0;
+}
+
+div.booking-container > button {
+  border: 2px solid deepskyblue;
+  padding: 10px 50px 10px 50px;
+  width: 286px;
+  margin: 20px 0 0 0;
+  color: deepskyblue;
+}
+
+div.booking-container > button:hover {
+  border: 2px solid deepskyblue;
+  background-color: deepskyblue;
+  padding: 10px 50px 10px 50px;
+  width: 286px;
+  margin: 20px 0 0 0;
+  color: white;
+  font-weight: 600;
 }
