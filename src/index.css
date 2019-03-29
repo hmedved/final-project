@@ -143,10 +143,11 @@ div.content > p {
 div.content > h1 {
   margin: 0 0 0 0px;
   color: #484848;
+  width: 750px;
 }
 
 div.content > img {
-  max-width: 720px;
+  max-width: 640px;
   margin: 20px 0 0 0;
 }
 
@@ -296,14 +297,14 @@ header > a > img.logo {
 }
 
 #contact-form {
-  border: 2px solid #484848;
-  text-align: center;
+  /* border: 2px solid #484848; */
+  /* text-align: center; */
   margin-left: auto;
   margin-right: auto;
   width: 30%;
   padding: 30px 10px 40px 10px;
   overflow: auto;
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 
 #contact-form > p {
@@ -329,6 +330,7 @@ textarea {
   border: 2px solid #484848;
   margin-top: 20px;
   width: 250px;
+  padding: 10px;
 }
 
 @keyframes App-logo-spin {

@@ -1,21 +1,25 @@
 import React, { Component } from "react";
-import Sound from "react-sound";
+import YouTube from "react-youtube";
 
 class MuzikaIza extends Component {
   render() {
+    const opts = {
+      height: "0",
+      width: "0",
+      playerVars: {
+        // https://developers.google.com/youtube/player_parameters
+        autoplay: 1
+      }
+    };
+
     return (
-      <Sound
-        url="https://www.youtube.com/watch?v=QBa-e45o6eM"
-        playStatus={Sound.status.PLAYING}
-        autoLoad={true}
-        autoPlay={true}
-        onBufferChange={true}
-        playFromPosition={0 /* in milliseconds */}
-        onLoading={this.handleSongLoading}
-        onPlaying={this.handleSongPlaying}
-        onFinishedPlaying={this.handleSongFinishedPlaying}
-      />
+      <YouTube videoId="QBa-e45o6eM" opts={opts} onReady={this._onReady} />
     );
+  }
+
+  _onReady(event) {
+    // access to player in all event handlers via event.target
+    event.target.playVideo();
   }
 }
 

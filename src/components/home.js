@@ -18,7 +18,10 @@ class Home extends Component {
           with a bridge at the town of Osor. Cres's only fresh water source is
           the Lake Vrana.
         </p>
-        <img src="http://www.tzg-cres.hr/en/images/header.jpg" alt="cres" />
+        <img
+          src="https://croatiareviews.com/media/reviews/photos/original/3c/b3/31/347-st-ivan-beach-62-1435062115.jpg"
+          alt="cres"
+        />
       </div>
     );
   }

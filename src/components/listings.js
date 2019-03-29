@@ -11,9 +11,9 @@ class Listings extends Component {
   }
 
   async componentDidMount() {
-    console.log("1");
     const apartmentList = await endpoints.getApartmentList();
     console.log("2", apartmentList);
+    console.log("I have mounted");
 
     this.setState({ apartmentList });
   }

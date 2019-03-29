@@ -8,6 +8,8 @@ import {
   DayPickerRangeController
 } from "react-dates";
 
+import { withRouter } from "react-router-dom";
+
 class Apartmentdetails extends Component {
   constructor(props) {
     super(props);
@@ -203,4 +205,4 @@ class Apartmentdetails extends Component {
   }
 }
 
-export default Apartmentdetails;
+export default withRouter(Apartmentdetails);
