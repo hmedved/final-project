@@ -63,7 +63,7 @@ class Apartmentdetails extends Component {
 
     const emailTo = "booking@metka.com";
     const subject = `Booking for ${this.state.apartment.title}`;
-    const name = "Hrvoje Medved"; // get from input box
+    const name = "INSERT YOUR NAME HERE"; // get from input box
     const startDate = this.state.startDate.format("MMM Do YYYY");
     const endDate = this.state.endDate.format("MMM Do YYYY");
     const body = `Hi, I would like to book your apartment from ${startDate} to ${endDate}. Best Regards, ${name}`;

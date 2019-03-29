@@ -10,8 +10,10 @@
     "react-dom": "^16.8.5",
     "react-images": "^0.5.19",
     "react-photo-gallery": "^6.3.2",
+    "react-responsive-carousel": "^3.1.47",
     "react-router-dom": "^5.0.0",
-    "react-scripts": "2.1.8"
+    "react-scripts": "2.1.8",
+    "react-sound": "^1.2.0"
   },
   "scripts": {
     "start": "react-scripts start",

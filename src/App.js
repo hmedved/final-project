@@ -11,6 +11,8 @@ import Tinyhouse from "./components/tinyhouse";
 import Oldhouse from "./components/oldhouse";
 import Familyhouse from "./components/familyhouse";
 import Apartmentdetails from "./components/apartmentdetails";
+import Backsound from "./components/backsound";
+
 console.log("endpoints", endpoints.getApartmentList());
 
 class App extends Component {
@@ -18,18 +20,13 @@ class App extends Component {
     return (
       <BrowserRouter>
         <div className="App">
+          <Backsound />
           <Header />
           <Route exact path="/" component={Home} />
 
           <Route exact path="/about" component={About} />
 
           <Route exact path="/listings" component={Listings} />
-
-          <Route exact path="/tinyhouse" component={Tinyhouse} />
-
-          <Route exact path="/oldhouse" component={Oldhouse} />
-
-          <Route exact path="/familyhouse" component={Familyhouse} />
 
           <Route
             exact
